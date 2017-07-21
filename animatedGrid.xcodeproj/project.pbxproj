@@ -12,6 +12,8 @@
 		B07053E31F220B180099F4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07053E11F220B180099F4AF /* Main.storyboard */; };
 		B07053E51F220B180099F4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07053E41F220B180099F4AF /* Assets.xcassets */; };
 		B07053E81F220B180099F4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07053E61F220B180099F4AF /* LaunchScreen.storyboard */; };
+		B0997A081F222FBF00E0B15A /* v1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0997A071F222FBF00E0B15A /* v1.gif */; };
+		B0C92AB61F222C6E008DE344 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0C92AB51F222C6E008DE344 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B07053E41F220B180099F4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B07053E71F220B180099F4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07053E91F220B180099F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0997A071F222FBF00E0B15A /* v1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = v1.gif; sourceTree = "<group>"; };
+		B0C92AB51F222C6E008DE344 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		B07053DC1F220B180099F4AF /* animatedGrid */ = {
 			isa = PBXGroup;
 			children = (
+				B0997A071F222FBF00E0B15A /* v1.gif */,
 				B07053DD1F220B180099F4AF /* AppDelegate.swift */,
 				B07053DF1F220B180099F4AF /* ViewController.swift */,
 				B07053E11F220B180099F4AF /* Main.storyboard */,
 				B07053E41F220B180099F4AF /* Assets.xcassets */,
 				B07053E61F220B180099F4AF /* LaunchScreen.storyboard */,
 				B07053E91F220B180099F4AF /* Info.plist */,
+				B0C92AB51F222C6E008DE344 /* README.md */,
 			);
 			path = animatedGrid;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07053E81F220B180099F4AF /* LaunchScreen.storyboard in Resources */,
+				B0997A081F222FBF00E0B15A /* v1.gif in Resources */,
 				B07053E51F220B180099F4AF /* Assets.xcassets in Resources */,
 				B07053E31F220B180099F4AF /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C92AB61F222C6E008DE344 /* README.md in Sources */,
 				B07053E01F220B180099F4AF /* ViewController.swift in Sources */,
 				B07053DE1F220B180099F4AF /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +310,7 @@
 				B07053EE1F220B180099F4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
