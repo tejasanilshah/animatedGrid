@@ -25,7 +25,7 @@
 		B07053E71F220B180099F4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B07053E91F220B180099F4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0997A071F222FBF00E0B15A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
-		B0C92AB51F222C6E008DE344 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0C92AB51F222C6E008DE344 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = animatedGrid/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		B07053D11F220B180099F4AF = {
 			isa = PBXGroup;
 			children = (
+				B0C92AB51F222C6E008DE344 /* README.md */,
 				B07053DC1F220B180099F4AF /* animatedGrid */,
 				B07053DB1F220B180099F4AF /* Products */,
 			);
@@ -65,7 +66,6 @@
 				B07053E41F220B180099F4AF /* Assets.xcassets */,
 				B07053E61F220B180099F4AF /* LaunchScreen.storyboard */,
 				B07053E91F220B180099F4AF /* Info.plist */,
-				B0C92AB51F222C6E008DE344 /* README.md */,
 			);
 			path = animatedGrid;
 			sourceTree = "<group>";
