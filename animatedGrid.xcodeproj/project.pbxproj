@@ -13,7 +13,7 @@
 		B07053E51F220B180099F4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07053E41F220B180099F4AF /* Assets.xcassets */; };
 		B07053E81F220B180099F4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07053E61F220B180099F4AF /* LaunchScreen.storyboard */; };
 		B0997A081F222FBF00E0B15A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B0997A071F222FBF00E0B15A /* demo.gif */; };
-		B0997A0A1F2232B700E0B15A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0997A091F2232B700E0B15A /* README.md */; };
+		B0997A0A1F2232B700E0B15A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0997A091F2232B700E0B15A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +134,7 @@
 				B0997A081F222FBF00E0B15A /* demo.gif in Resources */,
 				B07053E51F220B180099F4AF /* Assets.xcassets in Resources */,
 				B07053E31F220B180099F4AF /* Main.storyboard in Resources */,
+				B0997A0A1F2232B700E0B15A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0997A0A1F2232B700E0B15A /* README.md in Sources */,
 				B07053E01F220B180099F4AF /* ViewController.swift in Sources */,
 				B07053DE1F220B180099F4AF /* AppDelegate.swift in Sources */,
 			);

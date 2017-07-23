@@ -38,14 +38,31 @@ class ViewController: UIViewController {
         view.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(handlePan)))
     }
     
+    var selectedCell: UIView?
+    
     func handlePan(gesture: UIPanGestureRecognizer) -> Void {
         let location = gesture.location(in: view)
         let screenWidth = view.frame.width
         let cellViewWidth = screenWidth/CGFloat(numberOfColumns)
         let i = Int(location.x/cellViewWidth)
         let j = Int(location.y/cellViewWidth)
-        let cellView = cells["\(i)|\(j)"]
-        cellView?.backgroundColor = .black
+        guard let cellView = cells["\(i)|\(j)"] else { return }
+        if(selectedCell != cellView){
+            UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+                self.selectedCell?.layer.transform = CATransform3DIdentity
+            }, completion: nil)
+        }
+        selectedCell = cellView
+        view.bringSubview(toFront: cellView)
+        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
+            cellView.layer.transform = CATransform3DMakeScale(2.5, 2.5, 2.5)
+        }, completion: nil)
+        
+        if gesture.state == .ended {
+            UIView.animate(withDuration: 0.5, delay: 0.2, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: .curveEaseOut, animations: {
+                cellView.layer.transform = CATransform3DIdentity
+            }, completion: nil)
+        }
     }
     
     fileprivate func randomColor() -> UIColor {
